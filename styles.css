@@ -204,8 +204,7 @@ h2 { font-size: clamp(1.7rem, 3.4vw, 2.8rem); }
   opacity: 0.92;
 }
 .logo--empty {
-  background: none;
-  border: 1px dashed var(--line);
+  background: linear-gradient(135deg, #efece4 0%, #e7e2d8 100%);
   border-radius: var(--radius-sm);
   opacity: 1;
 }
@@ -214,9 +213,9 @@ h2 { font-size: clamp(1.7rem, 3.4vw, 2.8rem); }
   display: grid;
   place-items: center;
   height: 100%;
-  color: #c7c2b8;
-  font-size: 1.2rem;
-  font-weight: 300;
+  color: #8a8475;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 /* ---------- contact ---------- */
