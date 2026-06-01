@@ -257,6 +257,7 @@ footer {
   .hero-image img { aspect-ratio: 4 / 3; }
   .logo-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; max-width: 420px; }
   .gallery { grid-template-columns: 1fr 1fr; }
-  .gallery img { aspect-ratio: 4 / 3; }
+  .gallery img,
+  .photo--empty { aspect-ratio: 4 / 3; }
   .capabilities li { padding: 0 16px; font-size: 0.74rem; }
 }
