@@ -1,0 +1,4 @@
+# local only: originals kept per the no-delete rule
+obsolete/
+infinite-audio-video.html
+.DS_Store

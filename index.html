@@ -3,15 +3,50 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Infinite Audio and Video</title>
-    <meta name="description" content="Infinite Audio and Video designs, installs, and supports the technology behind exceptional homes. Bay Area, by appointment, since 1995.">
+    <title>Infinite Audio and Video · Home technology, Monterey to the Bay Area</title>
+    <meta name="description" content="Infinite Audio and Video designs, installs, and supports the technology behind exceptional homes: audio and video, networking, lighting and shades, control, and security. Monterey to the San Francisco Bay Area, by appointment, since 1995.">
+    <link rel="icon" type="image/png" href="assets/brand/favicon.png">
+    <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+    <meta name="theme-color" content="#f6f4ef">
+
+    <!-- how the link looks when it's shared (texts, email, social) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Infinite Audio and Video">
+    <meta property="og:description" content="Technology that disappears into the home. Design, installation, and support since 1995.">
+    <meta property="og:url" content="https://mettlerj.github.io/JEFF/">
+    <meta property="og:image" content="https://mettlerj.github.io/JEFF/assets/photos/theater.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- lets search engines show phone, area, and "since 1995" -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Infinite Audio and Video",
+      "description": "Design, installation, and support of home audio and video, networking, lighting and shades, control and automation, and security.",
+      "url": "https://mettlerj.github.io/JEFF/",
+      "telephone": "+1-408-647-6355",
+      "email": "info@InfiniteAudioAndVideo.com",
+      "foundingDate": "1995",
+      "areaServed": "Monterey to the San Francisco Bay Area, California",
+      "image": "https://mettlerj.github.io/JEFF/assets/photos/theater.jpg",
+      "logo": "https://mettlerj.github.io/JEFF/assets/brand/logo.png"
+    }
+    </script>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <a class="skip" href="#top">Skip to content</a>
     <header class="masthead">
-      <a class="wordmark" href="#top" aria-label="Infinite Audio and Video">
-        <img src="assets/brand/logo.png" alt="Infinite Audio and Video">
+      <a class="wordmark" href="#top" aria-label="Infinite Audio and Video, home">
+        <img src="assets/brand/logo.png" alt="Infinite Audio and Video" width="449" height="115">
       </a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#partners">Partners</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
     </header>
 
     <main id="top">
@@ -22,10 +57,14 @@
           Infinite Audio and Video designs, installs, and supports the
           technology behind exceptional homes.
         </p>
+        <div class="cta-row">
+          <a class="btn btn--solid" href="tel:+14086476355">Call 408.647.6355</a>
+          <a class="btn" href="mailto:info@InfiniteAudioAndVideo.com?subject=Project%20inquiry">Email us</a>
+        </div>
       </section>
 
       <figure class="hero-image">
-        <img src="assets/photos/residence.jpg" alt="Modern private residence">
+        <img src="assets/photos/theater.jpg" alt="Private home theater with a large screen and theater seating" width="1400" height="1041" fetchpriority="high">
       </figure>
 
       <section class="statement">
@@ -35,26 +74,31 @@
         </p>
       </section>
 
-      <section class="capabilities" aria-label="What we do">
-        <ul>
-          <li>Audio &amp; Video</li>
-          <li>Networking &amp; Wi&#8209;Fi</li>
-          <li>Lighting &amp; Shades</li>
-          <li>Control &amp; Automation</li>
-          <li>Security</li>
+      <section class="services" id="services" aria-labelledby="services-title">
+        <p class="eyebrow">What we do</p>
+        <h2 id="services-title">One system for the whole home.</h2>
+        <ul class="service-grid">
+          <li><h3>Audio &amp; Video</h3><p>Home theaters, media rooms, and whole-home audio, tuned to the room.</p></li>
+          <li><h3>Networking &amp; Wi&#8209;Fi</h3><p>A fast, reliable network with coverage in every corner of the house.</p></li>
+          <li><h3>Lighting &amp; Shades</h3><p>Lighting control and motorized shades that set each room with one touch.</p></li>
+          <li><h3>Control &amp; Automation</h3><p>Climate, gates, audio, and video from one app or keypad.</p></li>
+          <li><h3>Security</h3><p>Cameras and access control you can check from anywhere.</p></li>
         </ul>
+        <ol class="process" aria-label="How we work">
+          <li><span>01</span><b>Design</b> Planned around how you live and the look you want.</li>
+          <li><span>02</span><b>Install</b> Installed, programmed, and calibrated with care.</li>
+          <li><span>03</span><b>Support</b> Maintained and updated long after it&rsquo;s done.</li>
+        </ol>
       </section>
 
-      <section class="gallery" aria-label="Selected work">
-        <figure><img src="assets/photos/theater.jpg" alt="Private home theater"></figure>
-        <figure><img src="assets/photos/audio.jpg" alt="Distributed audio and listening room"></figure>
-        <figure><img src="assets/photos/planning.jpg" alt="System design and planning"></figure>
-        <figure class="photo--empty" aria-hidden="true"></figure>
-        <figure class="photo--empty" aria-hidden="true"></figure>
-        <figure class="photo--empty" aria-hidden="true"></figure>
+      <section class="gallery" id="work" aria-label="Selected work">
+        <figure><img src="assets/photos/residence.jpg" alt="Modern private residence" width="458" height="458" loading="lazy" decoding="async"></figure>
+        <figure><img src="assets/photos/audio.jpg" alt="High-end speakers and amplifiers in a listening room" width="1000" height="750" loading="lazy" decoding="async"></figure>
+        <figure><img src="assets/photos/planning.jpg" alt="Home control app on a phone and tablet showing climate and security cameras" width="1000" height="710" loading="lazy" decoding="async"></figure>
+        <!-- To add more work: drop a photo in assets/photos/ and copy one <figure> line above. -->
       </section>
 
-      <section class="partners">
+      <section class="partners" id="partners">
         <p class="eyebrow">Certified &amp; Authorized</p>
         <h2>Built on the best in the industry.</h2>
         <p class="partners-note">
@@ -71,23 +115,25 @@
           <div class="logo" style="--src:url(assets/logos/cedia.png)" role="img" aria-label="CEDIA Member"></div>
           <div class="logo" style="--src:url(assets/logos/thx.png)" role="img" aria-label="THX Certified Professional"></div>
           <div class="logo" style="--src:url(assets/logos/haa.png)" role="img" aria-label="HAA Home Acoustics Alliance"></div>
-          <div class="logo logo--empty" aria-hidden="true"></div>
-          <div class="logo logo--empty" aria-hidden="true"></div>
+          <!-- To add a partner: put its logo in assets/logos/ and copy one line above. -->
         </div>
       </section>
 
       <section class="contact" id="contact">
         <p class="eyebrow">By appointment</p>
         <h2>Monterey to the San Francisco Bay Area.</h2>
-        <div class="contact-links">
-          <a href="tel:+14086476355">408.647.6355</a>
-          <a href="mailto:info@InfiniteAudioAndVideo.com">info@InfiniteAudioAndVideo.com</a>
+        <p class="contact-note">Tell us about the home and what you have in mind. We&rsquo;ll take it from there.</p>
+        <div class="cta-row">
+          <a class="btn btn--solid" href="tel:+14086476355">408.647.6355</a>
+          <a class="btn" href="mailto:info@InfiniteAudioAndVideo.com?subject=Project%20inquiry">info@InfiniteAudioAndVideo.com</a>
         </div>
       </section>
     </main>
 
     <footer>
-      <span>Infinite Audio and Video</span>
+      <span>&copy; <span id="year">2026</span> Infinite Audio and Video</span>
+      <span>Since 1995 &middot; Monterey to the San Francisco Bay Area</span>
     </footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
   </body>
 </html>
